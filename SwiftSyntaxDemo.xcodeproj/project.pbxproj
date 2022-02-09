@@ -34,14 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AA63CC4127B32B1000ED31FF /* SyntaxProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyntaxProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA63CC4127B32B1000ED31FF /* SwiftSyntaxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSyntaxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA63CC4427B32B1000ED31FF /* SyntaxProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxProjectApp.swift; sourceTree = "<group>"; };
 		AA63CC4627B32B1000ED31FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA63CC4827B32B1200ED31FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA63CC4B27B32B1200ED31FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AA63CC5127B32B1200ED31FF /* SyntaxProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyntaxProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA63CC5127B32B1200ED31FF /* SwiftSyntaxDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSyntaxDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA63CC5527B32B1200ED31FF /* SyntaxProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxProjectTests.swift; sourceTree = "<group>"; };
-		AA63CC5B27B32B1200ED31FF /* SyntaxProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyntaxProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA63CC5B27B32B1200ED31FF /* SwiftSyntaxDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSyntaxDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA63CC5F27B32B1200ED31FF /* SyntaxProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxProjectUITests.swift; sourceTree = "<group>"; };
 		AA63CC6127B32B1200ED31FF /* SyntaxProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 		AA63CC3827B32B1000ED31FF = {
 			isa = PBXGroup;
 			children = (
-				AA63CC4327B32B1000ED31FF /* SyntaxProject */,
+				AA63CC4327B32B1000ED31FF /* SwiftSyntaxDemo */,
 				AA63CC5427B32B1200ED31FF /* SyntaxProjectTests */,
 				AA63CC5E27B32B1200ED31FF /* SyntaxProjectUITests */,
 				AA63CC4227B32B1000ED31FF /* Products */,
@@ -84,14 +84,14 @@
 		AA63CC4227B32B1000ED31FF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA63CC4127B32B1000ED31FF /* SyntaxProject.app */,
-				AA63CC5127B32B1200ED31FF /* SyntaxProjectTests.xctest */,
-				AA63CC5B27B32B1200ED31FF /* SyntaxProjectUITests.xctest */,
+				AA63CC4127B32B1000ED31FF /* SwiftSyntaxDemo.app */,
+				AA63CC5127B32B1200ED31FF /* SwiftSyntaxDemoTests.xctest */,
+				AA63CC5B27B32B1200ED31FF /* SwiftSyntaxDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AA63CC4327B32B1000ED31FF /* SyntaxProject */ = {
+		AA63CC4327B32B1000ED31FF /* SwiftSyntaxDemo */ = {
 			isa = PBXGroup;
 			children = (
 				AA63CC4427B32B1000ED31FF /* SyntaxProjectApp.swift */,
@@ -99,7 +99,7 @@
 				AA63CC4827B32B1200ED31FF /* Assets.xcassets */,
 				AA63CC4A27B32B1200ED31FF /* Preview Content */,
 			);
-			path = SyntaxProject;
+			path = SwiftSyntaxDemo;
 			sourceTree = "<group>";
 		};
 		AA63CC4A27B32B1200ED31FF /* Preview Content */ = {
@@ -130,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA63CC4027B32B1000ED31FF /* SyntaxProject */ = {
+		AA63CC4027B32B1000ED31FF /* SwiftSyntaxDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA63CC6527B32B1200ED31FF /* Build configuration list for PBXNativeTarget "SyntaxProject" */;
+			buildConfigurationList = AA63CC6527B32B1200ED31FF /* Build configuration list for PBXNativeTarget "SwiftSyntaxDemo" */;
 			buildPhases = (
 				AA63CC3D27B32B1000ED31FF /* Sources */,
 				AA63CC3E27B32B1000ED31FF /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = SyntaxProject;
+			name = SwiftSyntaxDemo;
 			productName = SyntaxProject;
-			productReference = AA63CC4127B32B1000ED31FF /* SyntaxProject.app */;
+			productReference = AA63CC4127B32B1000ED31FF /* SwiftSyntaxDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AA63CC5027B32B1200ED31FF /* SyntaxProjectTests */ = {
+		AA63CC5027B32B1200ED31FF /* SwiftSyntaxDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA63CC6827B32B1200ED31FF /* Build configuration list for PBXNativeTarget "SyntaxProjectTests" */;
+			buildConfigurationList = AA63CC6827B32B1200ED31FF /* Build configuration list for PBXNativeTarget "SwiftSyntaxDemoTests" */;
 			buildPhases = (
 				AA63CC4D27B32B1200ED31FF /* Sources */,
 				AA63CC4E27B32B1200ED31FF /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				AA63CC5327B32B1200ED31FF /* PBXTargetDependency */,
 			);
-			name = SyntaxProjectTests;
+			name = SwiftSyntaxDemoTests;
 			productName = SyntaxProjectTests;
-			productReference = AA63CC5127B32B1200ED31FF /* SyntaxProjectTests.xctest */;
+			productReference = AA63CC5127B32B1200ED31FF /* SwiftSyntaxDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AA63CC5A27B32B1200ED31FF /* SyntaxProjectUITests */ = {
+		AA63CC5A27B32B1200ED31FF /* SwiftSyntaxDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA63CC6B27B32B1200ED31FF /* Build configuration list for PBXNativeTarget "SyntaxProjectUITests" */;
+			buildConfigurationList = AA63CC6B27B32B1200ED31FF /* Build configuration list for PBXNativeTarget "SwiftSyntaxDemoUITests" */;
 			buildPhases = (
 				AA63CC5727B32B1200ED31FF /* Sources */,
 				AA63CC5827B32B1200ED31FF /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				AA63CC5D27B32B1200ED31FF /* PBXTargetDependency */,
 			);
-			name = SyntaxProjectUITests;
+			name = SwiftSyntaxDemoUITests;
 			productName = SyntaxProjectUITests;
-			productReference = AA63CC5B27B32B1200ED31FF /* SyntaxProjectUITests.xctest */;
+			productReference = AA63CC5B27B32B1200ED31FF /* SwiftSyntaxDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AA63CC3C27B32B1000ED31FF /* Build configuration list for PBXProject "SyntaxProject" */;
+			buildConfigurationList = AA63CC3C27B32B1000ED31FF /* Build configuration list for PBXProject "SwiftSyntaxDemo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA63CC4027B32B1000ED31FF /* SyntaxProject */,
-				AA63CC5027B32B1200ED31FF /* SyntaxProjectTests */,
-				AA63CC5A27B32B1200ED31FF /* SyntaxProjectUITests */,
+				AA63CC4027B32B1000ED31FF /* SwiftSyntaxDemo */,
+				AA63CC5027B32B1200ED31FF /* SwiftSyntaxDemoTests */,
+				AA63CC5A27B32B1200ED31FF /* SwiftSyntaxDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,12 +284,12 @@
 /* Begin PBXTargetDependency section */
 		AA63CC5327B32B1200ED31FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA63CC4027B32B1000ED31FF /* SyntaxProject */;
+			target = AA63CC4027B32B1000ED31FF /* SwiftSyntaxDemo */;
 			targetProxy = AA63CC5227B32B1200ED31FF /* PBXContainerItemProxy */;
 		};
 		AA63CC5D27B32B1200ED31FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA63CC4027B32B1000ED31FF /* SyntaxProject */;
+			target = AA63CC4027B32B1000ED31FF /* SwiftSyntaxDemo */;
 			targetProxy = AA63CC5C27B32B1200ED31FF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -418,7 +418,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SyntaxProject/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftSyntaxDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = HDM578XG85;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -447,7 +447,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SyntaxProject/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftSyntaxDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = HDM578XG85;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -485,7 +485,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SyntaxProject.app/SyntaxProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftSyntaxDemo.app/SwiftSyntaxDemo";
 			};
 			name = Debug;
 		};
@@ -505,7 +505,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SyntaxProject.app/SyntaxProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftSyntaxDemo.app/SwiftSyntaxDemo";
 			};
 			name = Release;
 		};
@@ -548,7 +548,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA63CC3C27B32B1000ED31FF /* Build configuration list for PBXProject "SyntaxProject" */ = {
+		AA63CC3C27B32B1000ED31FF /* Build configuration list for PBXProject "SwiftSyntaxDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA63CC6327B32B1200ED31FF /* Debug */,
@@ -557,7 +557,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA63CC6527B32B1200ED31FF /* Build configuration list for PBXNativeTarget "SyntaxProject" */ = {
+		AA63CC6527B32B1200ED31FF /* Build configuration list for PBXNativeTarget "SwiftSyntaxDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA63CC6627B32B1200ED31FF /* Debug */,
@@ -566,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA63CC6827B32B1200ED31FF /* Build configuration list for PBXNativeTarget "SyntaxProjectTests" */ = {
+		AA63CC6827B32B1200ED31FF /* Build configuration list for PBXNativeTarget "SwiftSyntaxDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA63CC6927B32B1200ED31FF /* Debug */,
@@ -575,7 +575,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA63CC6B27B32B1200ED31FF /* Build configuration list for PBXNativeTarget "SyntaxProjectUITests" */ = {
+		AA63CC6B27B32B1200ED31FF /* Build configuration list for PBXNativeTarget "SwiftSyntaxDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA63CC6C27B32B1200ED31FF /* Debug */,
